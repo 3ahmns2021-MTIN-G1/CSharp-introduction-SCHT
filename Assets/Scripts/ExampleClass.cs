@@ -21,7 +21,18 @@ public class ExampleClass : MonoBehaviour
     // int         -> identifier (Name der Variable)
     // ;           -> Ende des Statements
 
-    public int ganzeZahlVariable; //Ganze Zahlen - Integer - Instantzvariable (innerhalb der ganzen Klasse gültig)
+    public int ganzeZahlVariable = 6; //Ganze Zahlen - Integer - Instantzvariable (innerhalb der ganzen Klasse gültig)
+    public float gleitKommaVariable = 4.2f; //Gleitkommazahlen
+    public string textVariable = "Text"; //Text
+    public bool boolscheEntscheidung; //Binäre Entscheidung
+
+    // Variablentypen mit Referenzen
+    // public GameObject gameObjectVariable
+    public Rigidbody rigidBodyVariable;
+    public BoxCollider boxColliderVariable;
+    public BoxCollider boxColliderVariable2;
+    public Transform transformVariable;
+ 
     // Start is called before the first frame update
     void Start()
     {
