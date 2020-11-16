@@ -13,6 +13,15 @@ using UnityEngine;
 
 public class ExampleClass : MonoBehaviour
 {
+    //Deklaration von variablen
+    //Variablen sind Container für Value (Werte) oder References (Verweise)
+
+    // Variablentypen mit Werten
+    // public      -> access modifier (wer darf von außen auf die Variable zugreifen)
+    // int         -> identifier (Name der Variable)
+    // ;           -> Ende des Statements
+
+    public int ganzeZahlVariable; //Ganze Zahlen - Integer - Instantzvariable (innerhalb der ganzen Klasse gültig)
     // Start is called before the first frame update
     void Start()
     {
