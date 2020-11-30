@@ -7,5 +7,5 @@ public class Personen : MonoBehaviour
     public string name;     // Name
     public int alter;       // Alter
     public Personen vater;  // Vater
-    public Personen vater;  // Mutter
+    public Personen mutter;  // Mutter
 }
