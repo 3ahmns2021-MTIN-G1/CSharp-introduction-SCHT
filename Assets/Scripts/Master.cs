@@ -1,28 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Video;
-using UnityEngine.UI;
 
 public class Master : MonoBehaviour
 {
-    public float x;
-    public bool z;
-    public int textSize;
-    public Rigidbody rigid;
-    public BoxCollider bc;
-    public Text txt;
-   
-    void Start()
+    public float floatVarFirst;
+    public float floatVarSekond;
+    public Rigidbody rigidbodyVar;
+    public bool boolVar;
+    public BoxCollider boxColliderVar;
+    
+
+    void Update()
     {
-        rigid = GetComponent<Rigidbody>();
-        rigid.mass = x+20;
-        rigid.isKinematic = z;
-        rigid.angularDrag = x + 50f;
-        rigid.drag = x - rigid.mass;
-        bc.isTrigger = z;
-        txt.text = "Wilfried Gruber";
-        txt.fontSize = 4;
-        txt.lineSpacing = 5;
+        rigidbodyVar.mass = floatVarFirst + 20.0f;
+        rigidbodyVar.useGravity = boolVar;
+        rigidbodyVar.isKinematic = boolVar;
+        boxColliderVar.isTrigger = boolVar;
+        rigidbodyVar.angularDrag = floatVarFirst + 50.0f;
+        rigidbodyVar.drag = floatVarFirst - floatVarSekond;
     }
 }

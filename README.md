@@ -3,7 +3,7 @@
 
 ### Development platform:
 + Windows 10
-+ Unity 2019.1.14f1
++ Unity 2019.2.17f1
 
 ### Target platform:
 
@@ -20,4 +20,8 @@ None
 
 ### Lessons Learned:
 
-Copyright by you
+### External Help
++ [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
++ [Editor](https://jbt.github.io/markdown-editor/)
+
+Copyright by Thomas Schmid
